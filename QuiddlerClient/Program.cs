@@ -10,7 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 using QuiddlerLibrary;
-
+//new line
+//one more
 namespace QuiddlerClient
 {
     class Program
@@ -153,6 +154,7 @@ namespace QuiddlerClient
                             
                         }
                         //will be triggered and will ask the user if they wish to skip their turn
+                        //TODO:update program
                         else if (userChoice == 'n')
                         {
                             Console.Write("\nAre you sure you want to skip your turn? (y/n) ");
